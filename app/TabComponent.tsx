@@ -37,7 +37,7 @@ const TabComponent: FC<TabComponentProps> = ({ icon, page, text, isSelected, isV
 				</button>
 				{isSelected && (
 					<button id="x-button" className="x" onClick={handleXClick}>
-						<img src="/icons/x.svg" height="10" width="10" alt="close tab" />
+						<Image src="/icons/x.svg" height="10" width="10" alt="close tab" />
 					</button>
 				)}
 				<style jsx>{`
