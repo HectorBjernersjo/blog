@@ -1,15 +1,14 @@
 "use client";
-import Image from "next/image";
 import "./globals.css";
 import TabComponent from './TabComponent';
 import FileComponent from './FileComponent';
-import FilesIcon from "./files.svg";
 import FiverrIcon from "./fiverr.svg";
 import VolleyballIcon from "./volleyball.svg";
 import GithubIcon from "./github.svg";
 import WebsiteIcon from "./website.svg";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import ReactMarkdown from "react-markdown";
+import Image from "next/image";
 
 export default function Home() {
 	const [selectedTab, setSelectedTab] = useState<string | null>("ai-product-researcher");
@@ -127,7 +126,7 @@ export default function Home() {
 				</div>
 				<div className="file-bar">
 					<div className="top">
-						<img width="20" height="20" src="/icons/Arrow-down.svg" />
+						<Image alt="" width="20" height="20" src="/icons/Arrow-down.svg" />
 						<h2>BLOG</h2>
 					</div>
 					{projects.map((project, index) => {
@@ -150,7 +149,7 @@ export default function Home() {
 								})}
 							</div>
 							<button id="close-all-button" className="x" onClick={closeAllTabs}>
-								<img src="/icons/x.svg" height="14" width="14" alt="close tab" />
+								<Image src="/icons/x.svg" height="14" width="14" alt="close tab" />
 							</button>
 						</div>
 					}

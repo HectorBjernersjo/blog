@@ -1,6 +1,7 @@
 "use client";
+import Image from "next/image";
 // components/TabComponent.tsx
-import { FC, useState } from 'react';
+import { FC } from 'react';
 import './TabComponent.style.css';
 
 interface TabComponentProps {
@@ -31,7 +32,7 @@ const TabComponent: FC<TabComponentProps> = ({ icon, page, text, isSelected, isV
 		isVisible && (
 			<div className={`tab-container ${isSelected ? 'selected' : ''}`} onClick={handleTabClick}>
 				<button className="tab">
-					<img className="icon" src={icon} height="20" width="20" alt="tab icon" />
+					<Image className="icon" src={icon} height="20" width="20" alt="" />
 					<p>{text}</p>
 				</button>
 				{isSelected && (
