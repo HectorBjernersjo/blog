@@ -16,7 +16,7 @@ Next I tried using perplexity, it is after all built for research. It performed 
 	be a way to do this better.
 
 ## How
-This is why I developed productresearcher.azurewebsites.net, an AI powered service specialized in finding finding you
+This is why I developed airesearcher.duckdns.org, an AI powered service specialized in finding finding you
 	products that fit your specified criteria. It works like this:
 
 You start, as with any app, by logging in or creating an account. The app is built with dotnet and handles users with
@@ -54,7 +54,7 @@ The second limitation lies in the fact that websites are primarily built for hum
 	human would. This limits us when for example choosing options for a product with different configurations (for
 	example a laptop where you can choose the amount of ram and storage).
 
-All in all i’m decently happy with the result although when running it on azure with a free plan it becomes
-	exceedingly slow because of the amount of cpu needed to run a scraping browser. 
+I started hosting it on azure but with a free plan it became incredibly slow due to the performance required to run a 
+    headless browser. I ended up self howting it on an old laptop instead which became about 4x faster.
 
-You can try out the app here: [https://productresearcher.azurewebsites.net](https://productresearcher.azurewebsites.net)
+You can try out the app here: [https://airesearcher.duckdns.org](https://airesearcher.duckdns.org)
