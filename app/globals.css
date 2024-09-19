@@ -135,7 +135,7 @@ input[type="reset"] {
 .content-wrapper {
 	height: 100%;
 	background-color: var(--normal-background);
-	overflow: scroll;
+	overflow-y: scroll;
 }
 
 .content h1 {
