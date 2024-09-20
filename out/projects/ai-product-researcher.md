@@ -55,6 +55,6 @@ The second limitation lies in the fact that websites are primarily built for hum
 	example a laptop where you can choose the amount of ram and storage).
 
 I started hosting it on azure but with a free plan it became incredibly slow due to the performance required to run a 
-    headless browser. I ended up self howting it on an old laptop instead which became about 4x faster.
+    headless browser. I ended up self hosting it on an old laptop instead which became about 4x faster.
 
 You can try out the app here: [https://airesearcher.duckdns.org](https://airesearcher.duckdns.org)
