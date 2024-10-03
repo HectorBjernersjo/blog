@@ -165,9 +165,10 @@ export default function Home() {
 								<h2>HECTOR BJERNERSJÖ</h2>
 								<VolleyballIcon className="volleyball" height="1000" width="1000" />
 								<div className="container">
-									<div className="first-two">
+									<div className="first-three">
 										<a href="https://github.com/HectorBjernersjo" target="_blank">Github</a>
 										<a href="https://firefrogstudio.se" target="_blank">Web bureau</a>
+										<a href="/CV Hector Bjernersjö.pdf" target="_blank">CV</a>
 									</div>
 									<div className="second-two">
 										<a href="https://fiverr.com/hectorwp" target="_blank">Fiverr</a>
